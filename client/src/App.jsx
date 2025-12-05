@@ -13,6 +13,7 @@ const App = () => {
                 <Route path='/login' element={<Login />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='*' element={<Navigate to='/login' replace />} />
+                <Route path='*' element={<Navigate to='/login' replace />} />
             </Routes>
         </div>
     )
